@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculater</title>
+    <link rel="stylesheet" href="cal.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
+    </style>
+    <script src="cal.js"></script>
+</head>
+<body>
+    <div class="main">
+        <h1>Calci</h1>
+        <label class="Num1: ">number 1</label>
+        <input id="n1" class="nn1" type="number">
+        <label class="Num2: ">number 2</label>
+        <input id="n2" class="nn2" type="number">
+        <label >operation(+, -, *, /,%)</label>
+        <label class="sqr" >sqre root=press 1 (plese fill "number 1" fild only)</label>
+        <input id="op" class="nn1" maxlength="1" type="text">
+        <per><p>Ans:</p> <p id="ans"></p></per>
+        <input onclick="fun()" id="but" class="but" type="button" value="Ans">
+    </div>
+</body>
+</html>
